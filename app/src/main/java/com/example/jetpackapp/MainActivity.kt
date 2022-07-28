@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                 .fillMaxSize(), verticalAlignment = Alignment.CenterVertically) {
                 Text(text = "Anish")
                 Spacer(modifier = Modifier.width(5.dp))
-                Text(text = "G")
+                Text(text = "GG")
             }
         }
     }
