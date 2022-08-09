@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun ImageCard(painter: Painter, contentDesc: String, title:String, modifier: Modifier = Modifier){
-       Card(modifier = modifier.fillMaxWidth(), shape = RoundedCornerShape(15.dp), elevation = 5.dp ) {
+       Card(modifier = modifier.fillMaxWidth(), shape = RoundedCornerShape(15.dp), elevation = 8.dp ) {
            Box(modifier = Modifier.height(400.dp)){
             Image(painter = painter, contentDescription = contentDesc, modifier = Modifier.fillMaxSize(),contentScale = ContentScale.Crop, alignment = Alignment.Center )
               
